@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="addToFavourite"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/S1001"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="32dp"
+        android:onClick="handleSelection"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/michael_buble_collection" />
+
+    <TextView
+        android:id="@+id/txtTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="32dp"
+        android:text="The Way You Look Tonight"
+        app:layout_constraintStart_toEndOf="@+id/S1001"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtArtiste1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="102dp"
+        android:text="Michael Buble"
+        app:layout_constraintStart_toEndOf="@+id/S1001"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle1" />
+
+    <ImageButton
+        android:id="@+id/S1002"
+        android:layout_width="101dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="200dp"
+        android:onClick="handleSelection"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/S1001"
+        app:srcCompat="@drawable/billie_jean" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="200dp"
+        android:text="Billie Jean"
+        app:layout_constraintStart_toEndOf="@+id/S1002"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtArtiste2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="270dp"
+        android:text="Michael Jackson"
+        app:layout_constraintStart_toEndOf="@+id/S1002"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle2" />
+
+    <ImageView
+        android:id="@+id/add1"
+        android:layout_width="62dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="S1001"
+        android:onClick="addToFavourite"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageView
+        android:id="@+id/add2"
+        android:layout_width="62dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="S1002"
+        android:onClick="addToFavourite"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="650dp"
+        android:onClick="goToFavouriteActivity"
+        android:text="View Playlist" />
+
+    <ImageView
+        android:id="@+id/S1003"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="368dp"
+        android:onClick="handleSelection"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/michael_buble_collection" />
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="368dp"
+        android:text="Feeling Good" />
+
+    <TextView
+        android:id="@+id/txtArtiste3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="438dp"
+        android:text="Michael Buble" />
+
+    <ImageView
+        android:id="@+id/add3"
+        android:layout_width="62dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="380dp"
+        android:contentDescription="S1003"
+        android:onClick="addToFavourite"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageView
+        android:id="@+id/S1004"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="530dp"
+        android:onClick="handleSelection"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/michael_buble_collection" />
+
+    <TextView
+        android:id="@+id/txtTitle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="530dp"
+        android:text="Come Fly With Me" />
+
+    <TextView
+        android:id="@+id/txtArtiste4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="610dp"
+        android:text="Michael Buble" />
+
+    <ImageView
+        android:id="@+id/add4"
+        android:layout_width="62dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="540dp"
+        android:contentDescription="S1004"
+        android:onClick="addToFavourite"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+
+</FrameLayout>
