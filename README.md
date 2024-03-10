@@ -6,6 +6,6 @@ Music-Stream is a music app which allows users to listen to a variety of music g
 
 1) Ensure that all the files are downloaded.
 
-2) Import all the files into Android studio
+2) Import all the files into Android studio.
 
-3) Click on ' run '
+3) Click on ' run '.
